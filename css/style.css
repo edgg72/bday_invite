@@ -141,6 +141,37 @@ main {
   color: red;
 }
 
+@media only screen and (min-width: 1024px) {
+  .impostor {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  div.tarjeta {
+    width: 40%;
+    max-width: 800px;
+  }
+  .titulo {
+    font-size: 100px;
+  }
+  .informacion {
+    font-size: 60px;
+  }
+  .numero-cumple, .de {
+    font-size: 60px;
+  }
+  .numero-cumple {
+    padding-right: 15px;
+  }
+  .nombre {
+    font-size: 120px;
+  }
+  .confirmar, .lugar {
+    font-size: 60px;
+  }
+  
+}
+
 @font-face {
   font-family: "amongUs";
   src: url("../asset/Impostograph-Regular.ttf");
