@@ -133,7 +133,7 @@ main {
 }
 
 .infoDia {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   font-family: vcr;
 }
@@ -168,6 +168,11 @@ main {
   }
   .confirmar, .lugar {
     font-size: 60px;
+  }
+  .infoDia {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: vcr;
   }
   
 }
