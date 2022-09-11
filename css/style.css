@@ -187,3 +187,26 @@ main {
 }
 
 
+#preloader {
+  background: #fff;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#preloader img {
+  width: 130px;
+  height: 100px;
+}
+
+#preloader p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
