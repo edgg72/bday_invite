@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  user-select: none;
 }
 div.tarjeta {
   width: 80%;
@@ -84,6 +85,7 @@ main {
   border: 3px solid #ffff;
   border-radius: 10px;
   font-weight: 600;
+  cursor: pointer;
 }
 .botones {
   display: flex;
